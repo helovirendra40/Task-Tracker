@@ -1,0 +1,32 @@
+:root{
+    --theme-color: #07d69c;
+    --theme-color2: #0d1224;
+}
+.navbar { background-color: var(--theme-color2); color: #fff;}
+.navbar a{ color: #fff;}
+.navbar-brand{ color: var(--theme-color) !important;}
+.nav-item{ padding: 4px 10px;}
+.navbar a.active, .navbar a:hover{ color: var(--theme-color) !important;}
+.container-fluid{ width: 90% !important; margin: 0px auto;}
+.bg-img{ background-image: url('../images/hero-vIpT0q5G.svg');}
+.imgMain{ max-width: 400px; display: block; margin: 0px auto; width: 100%;}
+.subscribe{ background: var(--theme-color2);}
+.subscribe{ background: var(--theme-color) !important; color: var(--theme-color2);}
+/* .subscribe button:hover{ background: #0ee6a8 !important; color: #0d1224;} */
+.theme-btn{ background: var(--theme-color2) !important; color: #fff;}
+.py-10{ padding: 50px 0px;}
+.Social { display: flex; gap: 15px;}
+.Social a{ color: var(--theme-color2); font-size: 35px;}
+.login{ background: var(--theme-color); color: var(--theme-color2); font-weight: 600; padding: 6px 40px !important;}
+.login:hover{ background: #07d69c; color: var(--theme-color2); font-weight: 600; padding: 6px 40px !important;}
+.fa-bars{ color: #fff;}
+.navbar-brand{ font-weight: 800;}
+footer{ padding: 50px 0px; background: var(--theme-color2); color: #fff;}
+footer  ul{ list-style: none; padding-left: 0px;}
+footer h3{ font-size: 20px; margin-bottom: 30px;}
+footer a{ color: #fff; font-weight: 400; text-decoration: none;}
+footer a:hover{ color: var(--theme-color); text-decoration: none;}
+@media(max-width: 767px){
+    .reverseColumn{ flex-direction: column-reverse;}
+    .row  img{ margin: 40px 0px;}
+}
